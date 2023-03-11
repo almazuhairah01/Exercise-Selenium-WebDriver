@@ -22,9 +22,9 @@ class TestRegister(unittest.TestCase):
 
         linkText = driver.find_element(By.CLASS_NAME,'ico-register')
         linkText.click()
-        driver.find_element(By.ID, 'FirstName').send_keys('dua') #inspek elemen by ID
-        driver.find_element(By.ID, 'LastName').send_keys('dua') 
-        driver.find_element(By.ID, 'Email').send_keys('dua22@gmail.com')
+        driver.find_element(By.ID, 'FirstName').send_keys('tiga') #inspek elemen by ID
+        driver.find_element(By.ID, 'LastName').send_keys('tiga') 
+        driver.find_element(By.ID, 'Email').send_keys('tiga33@gmail.com')
         driver.find_element(By.ID, 'Password').send_keys('duadua22')
         driver.find_element(By.ID, 'ConfirmPassword').send_keys('duadua22') 
         driver.find_element(By.ID, 'register-button').click()
